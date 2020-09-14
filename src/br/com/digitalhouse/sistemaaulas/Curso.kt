@@ -1,4 +1,5 @@
 package br.com.digitalhouse.sistemaaulas
 
-class Curso(val nomeCurso: String, val listaAulas: arrayListOf<>()) {
+class Curso(val nomeCurso: String) {
+    val listaAulas = arrayListOf<Aula>()
 }
